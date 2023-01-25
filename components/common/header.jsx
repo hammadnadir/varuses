@@ -57,7 +57,7 @@ function Header() {
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
               }`}
           >
-            <div className='flex gap-10'>
+            <div className=' gap-10 md:flex'>
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="font-medium text-[12px] text-[#1FA5DE]">
                   <Link href="#">Technology</Link>
@@ -73,7 +73,7 @@ function Header() {
                   <Link href="#">Join Our Team</Link>
                 </li>
               </ul>
-              <button className='text-[12px] text-[#FFFFFF] bg-[#1FA5DE] p-[9px] w-[97px] rounded-[10px] italic'>Contact Us</button>
+              <button className='text-[12px] mt-[20px] md:mt-[0px] text-[#FFFFFF] bg-[#1FA5DE] p-[9px] w-[97px] rounded-[10px] italic'>Contact Us</button>
             </div>
           </div>
         </div>
