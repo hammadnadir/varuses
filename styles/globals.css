@@ -221,6 +221,9 @@
   .labelres{
     font-size: 22px ;
   }
+  .trustres{
+    font-size: 30;
+}
 
 }
 
@@ -231,5 +234,8 @@
     }
     .labelres{
         font-size: 18px ;
+    }
+    .trustres{
+        font-size: 25;
     }
 }

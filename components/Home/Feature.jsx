@@ -4,7 +4,7 @@ function Feature() {
     return (
         <div>
             <div className='container'>
-                <h1 className='text-center text-[35px] text-[#0F7CC0] font-bold mt-16'>Why Should You Trust Us.?</h1>
+                <h1 className='text-center text-[35px] text-[#0F7CC0] font-bold mt-16 trustres'>Why Should You Trust Us.?</h1>
                 <div className='grid gap-[25px] mt-[40px] lg:grid-cols-4  md:grid-cols-2 grid-cols-1'>
                     <div>
                         <div>
