@@ -24,9 +24,9 @@ function Footer() {
                       <h1 className='text-[#3C9E48] font-bold text-[20px]'>Quick Links</h1>
                     </div>
                     <div className='flex flex-col'>
-                      <Link className='font-semibold text-[16px] pt-6' href='/'>About QR code</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>Homepage</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>Pricing</Link>
+                      <Link className='font-semibold text-[16px] pt-6 quickhov' href='/'>About QR code</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>Homepage</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>Pricing</Link>
                     </div>
                   </div>
                   <div>
@@ -34,11 +34,11 @@ function Footer() {
                       <h1 className='text-[#3C9E48] font-bold text-[20px]'>Company</h1>
                     </div>
                     <div className='flex flex-col'>
-                      <Link className='font-semibold text-[16px] pt-6' href='/'>Our Team</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>Events</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>Career</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>About Us</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>News And Press</Link>
+                      <Link className='font-semibold text-[16px] pt-6 quickhov' href='/'>Our Team</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>Events</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>Career</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>About Us</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>News And Press</Link>
                     </div>
                   </div>
                 </div>
@@ -56,11 +56,11 @@ function Footer() {
                       <h1 className='text-[#3C9E48] font-bold text-[20px]'>News</h1>
                     </div>
                     <div className='flex flex-col'>
-                      <Link className='font-semibold text-[16px] pt-6' href='/'>Our Team</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>Events</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>Career</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>About Us</Link>
-                      <Link className='font-semibold text-[16px] pt-2' href='/'>News And Press</Link>
+                      <Link className='font-semibold text-[16px] pt-6 quickhov' href='/'>Our Team</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>Events</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>Career</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>About Us</Link>
+                      <Link className='font-semibold text-[16px] pt-2 quickhov' href='/'>News And Press</Link>
                     </div>
                   </div>
                 </div>
@@ -71,20 +71,20 @@ function Footer() {
                       <h1 className='text-[#3C9E48] font-bold text-[20px]'>Contact Information</h1>
                     </div>
                     <div className='flex flex-col'>
-                     <p className='font-semibold text-[16px] pt-6'>USA : <span className='font-semibold text-[16px] pt-6'>+1 (516) 274-8700</span></p>
-                     <p className='font-semibold text-[16px] pt-2'>PAK : <span className='font-semibold text-[16px] pt-2'>+92 3012364728</span></p>
-                     <p className='font-semibold text-[16px] pt-2'>Email : <Link className='font-semibold text-[16px] text-[#008BBF] pt-2' href="info@verisys.us">info@verisys.us</Link></p>
+                     <p className='font-semibold text-[16px] pt-6'>USA : <a href='tel: +923260533337'><span className='font-semibold text-[16px] pt-6'>+1 (516) 274-8700</span></a></p> 
+                     <p className='font-semibold text-[16px] pt-2'>PAK : <a href='tel: +923260533337'><span className='font-semibold text-[16px] pt-2'>+92 3012364728</span></a></p>
+                     <p className='font-semibold text-[16px] pt-2'>Email : <a className='font-semibold text-[16px] text-[#008BBF] pt-2' href="mailto: hammadnadir75@gmail.com">info@verisys.us</a></p>
                       
                     </div>
                   </div>
 
                   <div>
-                    <div className='flex pt-14 gap-2'>
-                      <img className='cursor-pointer' src="/images/FB.png" alt="" />
-                      <img className='cursor-pointer' src="/images/insta.png" alt="" />
-                      <img className='cursor-pointer' src="/images/twitter.png" alt="" />
-                      <img className='cursor-pointer' src="/images/youtube.png" alt="" />
-                      <img className='cursor-pointer' src="/images/whatsapp.png" alt="" />
+                    <div className='flex pt-14 gap-2 items-center'>
+                       <a href='https://www.facebook.com/' target="_blank"><img className='cursor-pointer' src="/images/FB.png" alt="" /></a> 
+                       <a href='https://www.instagram.com/' target="_blank"><img className='cursor-pointer' src="/images/insta.png" alt="" /></a>
+                       <a href='https://www.twitter.com/' target="_blank"><img className='cursor-pointer' src="/images/twitter.png" alt="" /></a>
+                       <a href='https://youtube.com/' target="_blank"><img className='cursor-pointer' src="/images/youtube.png" alt="" /></a>
+                       <a href='https://web.whatsapp.com/send?phone=+923260533337&amp;text=Hi ,Hammmad how are you..' target="_blank"><img className='cursor-pointer' src="/images/whatsapp.png" alt="" /></a>
                     </div>
                   </div>
                 </div>

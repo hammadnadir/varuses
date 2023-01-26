@@ -2,9 +2,9 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="">
+    <div className="pt-[83px]">
       <div className="container">
-        <div className="flex justify-around pt-14 items-center gap-4 CounterRes mb-24">
+        <div className="flex justify-around items-center gap-4 CounterRes mb-24">
           <div>
             <h1 className="text-[35px] font-bold text-[#0F7CC0] stopres">Stop Counterfeiting</h1>
             <h3 className="text-[35px] capitalize font-semibold text-[#3C9E48] preventres">Prevent Fraud Augment your physical products with digital value</h3>
